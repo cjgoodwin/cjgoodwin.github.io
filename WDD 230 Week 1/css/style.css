@@ -2,9 +2,23 @@ body {
     font-size: 16px;
 }
 
-header, footer {
-    margin: 5rem;
-    border: 2px;
-    padding: 0.5rem;
-    background-color: beige;
+
+header, 
+main, 
+footer {
+max-width: 760px;
+margin: 0 auto;
+}
+
+header,
+footer {
+    border: 2px solid #bbb;
+    padding: 1rem;
+    background-color: #bed;
+}
+
+header img {
+    float: right;
+    width: auto;
+    height: 200px;
 }
