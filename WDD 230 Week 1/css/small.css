@@ -5,11 +5,16 @@ body {
     height: 100%;
 }
 
+header {
+    display: block;
+}
+
 header, 
 main, 
 footer {
 max-width: 760px;
 margin: 0 auto;
+padding: .75rem;
 }
 
 header,
@@ -21,9 +26,8 @@ footer {
 }
 
 header img {
-    float: right;
-    width: auto;
-    height: 200px;
+    width: 200px;
+    height: auto;
 }
 
 h1,
@@ -38,6 +42,6 @@ h1 {
 }
 
 h2 {
-    font-size: .5rem;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
 }

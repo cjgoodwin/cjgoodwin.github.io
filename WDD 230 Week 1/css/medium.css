@@ -6,4 +6,16 @@
     h2 {
         font-size: 1.5rem;
     }
+
+    header,
+    footer {
+        border-radius: 10px;
+    }
+
+    header img {
+        float: right;
+        height: auto;
+        box-shadow: 0 0 30px #444;
+        border-radius: 10px;
+    }
 }
