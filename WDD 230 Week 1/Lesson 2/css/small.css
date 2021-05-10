@@ -1,3 +1,24 @@
 main {
     font-family: 'Noto Sans JP', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header {
+    display: block;
+}
+
+header,
+footer {
+    border: 2px solid #00ffff;
+    padding: 1rem;
+    background-color: #000099;
+    color: #ccffff;
 }
