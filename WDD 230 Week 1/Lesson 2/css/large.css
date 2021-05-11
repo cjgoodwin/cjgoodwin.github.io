@@ -2,6 +2,11 @@
 
 @media only screen and (min-width: 60em) {
     body {
-        grid-column: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    header,
+    footer {
+        grid-column: span 3;
     }
 }
