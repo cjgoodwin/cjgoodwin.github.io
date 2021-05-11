@@ -1,7 +1,16 @@
 /* This css file is to style medium size view port for my design principles assignment */
 
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 37.5em) {
     body {
         grid-column: 1fr 1fr;
+    }
+
+    header,
+    footer {
+        grid-column: span 2;
+    }
+
+    section:nth-child() {
+
     }
 }
