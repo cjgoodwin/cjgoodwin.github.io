@@ -1,6 +1,6 @@
 /* This css file is to style the large size view port for my design principles assignment */
 
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 60em) {
     body {
         grid-column: 1fr 1fr 1fr;
     }
