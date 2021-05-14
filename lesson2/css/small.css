@@ -8,28 +8,27 @@ footer {
     padding: 1rem;
     background-color: #000099;
     color: #ccffff;
-}
-
-body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-header {
-    display: block;
-    margin: .75rem;
     text-align: center;
 }
 
 #grid-container {
     display: grid;
     grid-template-columns: 1fr;
-    width: 90%;
+    max-width: 90%;
 }
 
-
-
+/*body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+*/
+/*header {
+    display: block;
+    margin: .75rem;
+    text-align: center;
+}
+*/
 main {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 2rem;
@@ -48,13 +47,12 @@ h3 {
     border-radius: 1rem;
     padding: 1rem;
     margin: auto;
-    grid-column: span 1;
 }
 
-.first-img {
+/*.first-img {
     width: 100%;
 }
-
+*/
 .firstcolumn,
 .secondcolumn,
 .thirdcolumn {
@@ -62,5 +60,5 @@ h3 {
     margin: .75rem;
     background-color: lightgray;
     border-radius: 1rem;
-    grid-column: span 1;
+    width: 90%;
 }
