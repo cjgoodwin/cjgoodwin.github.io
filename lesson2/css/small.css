@@ -3,15 +3,13 @@
 
 header {
     display: block;
-    grid-column: span 1;
     margin: .75rem;
     text-align: center;
 }
     
-body {
+#grid-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-column: span 1;
 }
 
 header,
@@ -21,11 +19,6 @@ footer {
     padding: 1rem;
     background-color: #000099;
     color: #ccffff;
-    grid-column: span 1;
-}
-
-footer {
-    font-size: 1rem;
 }
 
 main {
@@ -47,6 +40,10 @@ h3 {
     padding: 1rem;
     margin: auto;
     grid-column: span 1;
+}
+
+.first-img {
+    width: 100%;
 }
 
 .firstcolumn,

@@ -1,21 +1,9 @@
 /* This css file is to style medium size view port for my design principles assignment */
 
 @media only screen and (min-width: 37.5em) {
-    body {
+    #grid-container {
         grid-template-columns: 1fr 1fr;
     }
-
-    header,
-    footer {
-        grid-column: span 2;
-    }
     
-    .firstcolumn {
-        grid-column: span 1;
-    }
 
-    .secondcolumn {
-        grid-column-start: 2;
-        grid-column-end: 2;
-    }
 }
