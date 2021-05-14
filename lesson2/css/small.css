@@ -49,10 +49,18 @@ h3 {
     margin: auto;
 }
 
-/*.first-img {
+.first-img {
     width: 100%;
 }
-*/
+
+.second-img {
+    width: 100%;
+}
+
+.third-img {
+    width: 100%;
+}
+
 .firstcolumn,
 .secondcolumn,
 .thirdcolumn {
