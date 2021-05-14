@@ -1,17 +1,6 @@
 /* This css file is the main and small css file used for my design
     principles document */
 
-header {
-    display: block;
-    margin: .75rem;
-    text-align: center;
-}
-    
-#grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
 header,
 footer {
     font-size: 24px;
@@ -20,6 +9,26 @@ footer {
     background-color: #000099;
     color: #ccffff;
 }
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: block;
+    margin: .75rem;
+    text-align: center;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+}
+
+
 
 main {
     font-family: 'Noto Sans JP', sans-serif;
