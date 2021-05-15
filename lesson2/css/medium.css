@@ -4,10 +4,13 @@
     #grid-container {
         grid-template-columns: 1fr 1fr;
         max-width: 90%;
+        font-size: 1rem;
+        column-gap: 1.2rem;
     }
 
     header {
         grid-column: span 2;
+        font-size: 1.2rem;
     }
 
 }

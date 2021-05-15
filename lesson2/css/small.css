@@ -8,14 +8,23 @@ footer {
     background-color: #000099;
     color: #ccffff;
     text-align: center;
+    max-width: 90%;
+    display: block;
+    margin: auto;
+}
+
+header {
+    font-size: .8rem;
 }
 
 #grid-container {
     display: grid;
     grid-template-columns: 1fr;
+    column-gap: .5rem;
     max-width: 90%;
-    margin: 0 auto;
+    margin: auto;
     padding: 1rem;
+    font-size: .8rem;
 }
 
 /*body {
@@ -48,6 +57,7 @@ h3 {
     border-radius: 1rem;
     padding: 1rem;
     margin: auto;
+    font-size: 1.5rem;
 }
 
 .first-img {
