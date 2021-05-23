@@ -28,10 +28,8 @@ footer {
     box-shadow: 5px darkslategrey;
 }
 
-.header-logo {
-    height: 100px;
-    width: auto;
-    margin-left: -10px;
+header img {
+    height: 90px;
 }
 
 body {
