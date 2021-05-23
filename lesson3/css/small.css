@@ -1,6 +1,17 @@
-header,
-footer {
+header {
     display: flex;
+    margin: auto;
+    padding: .75rem;
+    background-color: #4e6969;
+    border: 5px solid  #0d9de3;
+    color:beige;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 5px darkslategrey;
+}
+
+footer {
+    display: block
     margin: auto;
     padding: .75rem;
     background-color: #4e6969;
@@ -14,12 +25,16 @@ footer {
 .header-logo {
     height: 170px;
     width: auto;
-    align-items: center;
+    margin-left: -10px;
 }
 
 body {
     font-size: 16px;
     margin:auto;
-    padding: 1rem;
+    padding: 2rem;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.domain-container {
+    border: 5px solid  #0d9de3;
 }
