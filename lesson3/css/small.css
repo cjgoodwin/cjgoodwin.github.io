@@ -1,3 +1,5 @@
+/* This css file is to act as the base stylesheet besides normalize to style my website planning assingment */
+
 header {
     display: flex;
     margin: auto;
@@ -37,4 +39,20 @@ body {
 
 .domain-container {
     border: 5px solid  #0d9de3;
+    border-radius: 25px;
+    margin-top: 2rem;
+    padding: .75rem;
+    text-align: left;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+.logo-container {
+    border: 5px solid  #0d9de3;
+    border-radius: 25px;
+    margin-top: 2rem;
+    padding: .75rem;
+    text-align: left;
 }
