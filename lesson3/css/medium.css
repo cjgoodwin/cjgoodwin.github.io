@@ -2,6 +2,23 @@
 
 @media only screen and (min-width: 37.5em) {
     header img {
-        max-height: 250px;
+        height: 150px;
     }
+
+    .domain-container {
+        text-align: center;
+    }
+    
+    .logo-container {
+        text-align: center;
+    }
+
+    .example-logo {
+        height: 200px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
 }
