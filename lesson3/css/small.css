@@ -2,8 +2,22 @@ header,
 footer {
     display: flex;
     margin: auto;
-    background-color: #0d9de3;
-    border: 5px solid #4e6969;
+    padding: 1rem;
+    background-color: #4e6969;
+    border: 5px solid  #0d9de3;
+    color:beige;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 5px darkslategrey;
+}
+
+.header-logo {
+    height:200px;
+    width: auto;
+}
+
+h1 {
+    
 }
 
 body {
