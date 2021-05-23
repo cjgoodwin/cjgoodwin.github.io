@@ -1,0 +1,7 @@
+/* This stylesheet will style the large size view for my webpage */
+
+@media only screen and (min-width: 60em) {
+    header img {
+        height: 300px;
+    }
+}
