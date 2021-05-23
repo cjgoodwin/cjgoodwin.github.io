@@ -4,4 +4,12 @@
     header img {
         height: 300px;
     }
+
+    header {
+        font-size: 2rem;
+    }
+
+    body {
+        font-size: 1.5rem;
+    }
 }
