@@ -2,7 +2,7 @@ header,
 footer {
     display: flex;
     margin: auto;
-    padding: 1rem;
+    padding: .75rem;
     background-color: #4e6969;
     border: 5px solid  #0d9de3;
     color:beige;
@@ -12,12 +12,9 @@ footer {
 }
 
 .header-logo {
-    height:200px;
+    height: 170px;
     width: auto;
-}
-
-h1 {
-    
+    align-items: center;
 }
 
 body {
