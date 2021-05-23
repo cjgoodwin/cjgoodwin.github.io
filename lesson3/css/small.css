@@ -9,7 +9,11 @@ header {
     color:beige;
     text-align: center;
     border-radius: 25px;
-    box-shadow: 5px darkslategrey;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
 }
 
 footer {
