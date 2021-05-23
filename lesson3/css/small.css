@@ -1,14 +1,13 @@
+header,
+footer {
+    display: flex;
+    margin: auto;
+    background-color: #0d9de3;
+    border: 5px solid #4e6969;
+}
+
 body {
     font-size: 16px;
     margin:auto;
     padding: 1rem;
-}
-
-.header {
-    display: flex;
-    margin: auto;
-    background-color: #0d9de3;
-    border: #4e6969;
-    border-width: 5px;
-
 }
