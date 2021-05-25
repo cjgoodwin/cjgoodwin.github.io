@@ -8,7 +8,7 @@
     .domain-container {
         text-align: center;
     }
-    
+
     .logo-container {
         text-align: center;
     }
@@ -20,5 +20,15 @@
     h2 {
         text-align: center;
     }
+
+    nav ul {
+        display: flex;
+    }
+	
+    nav ul li { 
+        flex: 1 1 100%;
+        font-size: 2rem;
+    }
+
 
 }
