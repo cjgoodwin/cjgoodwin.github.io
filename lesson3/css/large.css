@@ -5,6 +5,11 @@
         height: 300px;
     }
 
+    body {
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+
     header {
         font-size: 2rem;
     }
